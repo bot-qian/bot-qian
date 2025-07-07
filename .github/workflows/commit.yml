@@ -106,7 +106,7 @@ jobs:
 
       - name: "Commit and Push"
         run: |
-          git config --local user.email "xuqssq@163.com"
+          git config --local user.email "xuqssq@126.com"
           git config --local user.name "qian"
           git add pictures/*
           git commit -m "${{ steps.commit-message.outputs.message }}" || echo "No changes to commit"
